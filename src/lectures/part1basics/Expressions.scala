@@ -40,7 +40,7 @@ object Expressions extends App {
 
   // EVERYTHING in Scala is an Expression!
 
-  val aWeirdValue = (aVariable = 3) // Unit === void
+  val aWeirdValue = aVariable = 3 // Unit === void
   println(aWeirdValue)
 
   // side effects: println(), whiles, reassigning
